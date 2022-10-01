@@ -1,0 +1,85 @@
+//comment.css
+
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 45px;
+  margin-left: 145px;
+  margin-bottom: 0px;
+}
+.sub-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+.name-input {
+  width: 250px;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.comment-input {
+  width: 250px;
+  height: 150px;
+  outline: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #0284c7;
+  color: #dee0e3;
+  border: 0px;
+  width: 110px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.line {
+  background-color: #cbd2d9;
+  border-style: solid;
+  border-color: #cbd2d9;
+  width: 80vw;
+}
+.comments-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+}
+.comment-counter {
+  background-color: #0284c7;
+  color: #dee0e3;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.comment-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #7e858e;
+  padding-left: 5px;
+  font-weight: bold;
+}

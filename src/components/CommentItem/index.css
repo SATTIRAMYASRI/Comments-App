@@ -1,0 +1,125 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.li-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.bg-container {
+  margin-left: 80px;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+  /* justify-content: center;
+  align-items: center; */
+}
+.commentuser-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+.user-profile {
+  color: white;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  margin-right: 10px;
+}
+.user-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.user-comment {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 5px;
+}
+.name-time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.time {
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.like-delete-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.img-styling {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.like-text {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.likedtext-styling {
+  color: #0ea5e9;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.line {
+  background-color: #cbd2d9;
+  border-style: solid;
+  border-color: #cbd2d9;
+  width: 80vw;
+}
+.button-styling {
+  background-color: white;
+  border: 0px;
+}
